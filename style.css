@@ -64,3 +64,8 @@ button{
         transform: translateY(50px);
     }
 }
+.paragraphe_click{
+    background-color: rgb(216, 59, 59);
+    text-decoration: line-through;
+    opacity: 0.7;
+}

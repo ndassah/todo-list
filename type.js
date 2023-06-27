@@ -22,6 +22,12 @@ addToDoButton.onclick = function(){
 
    //barrer losrqu'on clicque dessus
    paragraphe.addEventListener('click',function(){
-    alert('hello');
+    paragraphe.classList.add('paragraphe_click');
    })
+
+   //suppression au double clique
+   paragraphe.addEventListener('dblclick',function(){
+    toDocontainer.removeChild(paragraphe);
+   })
+
 }
