@@ -54,6 +54,7 @@ button{
     background-color: #699df0;
     word-break: break-all;
     cursor: pointer;
+    animation: anime 0.5s linear;
 }
 .paragraphe_style:last-child{
     margin-bottom: 0;

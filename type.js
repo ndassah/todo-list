@@ -13,10 +13,15 @@ addToDoButton.onclick = function(){
 
    //style du paragraphe
    paragraphe.classList.add("paragraphe_style");
-   
+
    //inserer le paragraphe dans l'element todolist
    toDocontainer.appendChild(paragraphe);
 
    //vide l'input apres insertion
    inputField.value="";
+
+   //barrer losrqu'on clicque dessus
+   paragraphe.addEventListener('click',function(){
+    alert('hello');
+   })
 }
