@@ -11,6 +11,12 @@ addToDoButton.onclick = function(){
    //insere uncontenue dans le paragraphe
    paragraphe.innerText = inputField.value;
 
+   //style du paragraphe
+   paragraphe.classList.add("paragraphe_style");
+   
    //inserer le paragraphe dans l'element todolist
    toDocontainer.appendChild(paragraphe);
+
+   //vide l'input apres insertion
+   inputField.value="";
 }
